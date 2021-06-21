@@ -1,6 +1,6 @@
 .shop-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 .product-container{
     width: 60%;

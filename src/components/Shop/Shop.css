@@ -4,7 +4,14 @@
 }
 .product-container{
     width: 60%;
-    margin-left: 15px;
-    margin-right: 10px;
-    border-right: 1px solid lightgray;
+    /* border-right: 1px solid lightgray; */
+}
+.cart-container{
+    /* background-color: gray; */
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 4px 8px 19px gray;
 }

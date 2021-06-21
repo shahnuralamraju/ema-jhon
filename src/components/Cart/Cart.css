@@ -3,10 +3,16 @@ h2,h3{
 }
 h2{
     font-weight: bolder;
+    color: #FF9800;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 5px;
 }
 h3{
     font-weight: 400;
 }
 span{
     margin-left: 10%;
+    font-weight: bolder;
+    color: #FF9800;
 }

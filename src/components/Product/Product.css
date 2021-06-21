@@ -1,0 +1,35 @@
+.product{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    /* margin-left: 20%; */
+    
+}
+.product-name{
+    color: blue;
+    font-weight: 400;
+    text-align: justify;
+}
+.info-container{
+    margin-left: 5%;
+}
+.main-button{
+    width: 150px;
+    cursor: pointer;
+    height: 30px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    background: linear-gradient(to left, #FF9800 50%, #221F1F 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.main-button:hover{
+    background-position: left;
+}
+span{
+    margin-right: 9px;
+}

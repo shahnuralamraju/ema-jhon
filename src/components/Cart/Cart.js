@@ -2,16 +2,17 @@ import React from 'react';
 import './Cart.css';
 const Cart = (props) => {
     const cart = props.cart;
+
     // console.log(cart);
     
-    // const total = cart.reduce((total, prd) => total + prd.price, 0);
-
-    let total = 0;
-    for (let i = 0; i < cart.length; i++) {
-        const product = cart[i];
-        total = Number((total + product.price).toFixed(2));
+     const total = cart.reduce((total, item) => total + Number((item.price*item.quantity).toFixed(2)), 0);
+    
+    // let total = 0;
+    // for (let i = 0; i < cart.length; i++) {
+    //     const product = cart[i];
+    //     total = total + Number((product.price * product.quantity).toFixed(2)) ;
         
-    }
+    // }
 
     let shipping = 0;
     if(total > 150){
@@ -35,6 +36,9 @@ const Cart = (props) => {
             <p>Tax(5%) + Vat    :<span>$ {tax}</span></p>
         
             <h2>Total Price: <span>$ {grandTotal}</span></h2>
+            {
+                props.children
+            }
             
         </div>
     );

@@ -11,16 +11,31 @@
     font-size: 20px;
     text-align: left;
 }
-nav a{
+nav li a{
     text-decoration: none;
     margin: 20px;
     padding: 10px;
     color: #fff;
 }
 
-nav a:hover{
-    background-color: #FF9800;
-    border-radius: 10px;
+nav li a:hover{
+    border: 1px solid white;
+    transform: none;
 }
-
-
+.logo-div{
+    width: 200px;
+}
+.logo-div:hover{
+    border:1px solid white;
+}
+.logo-div img{
+    width: 100%;
+}
+.nav-item a{
+    font-size: 20px;
+}
+.nabi{
+    background-color: #221F1F;
+    margin-top: 0;
+    
+}
